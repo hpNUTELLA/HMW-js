@@ -1,7 +1,7 @@
 
 var confirmed = confirm('Sayohat qilmoqchimisiz')
 console.log(confirmed)
-var name = prompt('ismingiz')
+var name = confirm('ismingiz')
 alert(name + 'Assalomu aleykum xush kelibsiz')
 if(confirmed) {
     var money = prompt('Mablagingizni kiriting ')
