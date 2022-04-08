@@ -1,9 +1,10 @@
 
 var confirmed = confirm('Sayohat qilmoqchimisiz')
 console.log(confirmed)
-var name = confirm('ismingiz')
-alert(name + 'Assalomu aleykum xush kelibsiz')
 if(confirmed) {
+var name = confirm('ismingiz')
+console.log(confirmed)
+alert(name + 'Assalomu aleykum xush kelibsiz')
     var money = prompt('Mablagingizni kiriting ')
     if ( money >= 2000) {
         alert('siz bu mablag bilan dubailga borolisiz')
